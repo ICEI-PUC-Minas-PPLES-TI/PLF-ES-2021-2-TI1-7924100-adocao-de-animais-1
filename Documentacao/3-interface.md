@@ -1,6 +1,6 @@
-#USER FLOW#
-![userflow1](2-Imagens/userflow.jpg)
-#Wireframes#
+# USER FLOW
+![userflow](2-Imagens/userflow.jpg)
+# Wireframes
 ![wireframe1](2-Imagens/wireframe1.jpg)
 ![wireframe2](2-Imagens/wireframe2.jpg)
 ![wireframe3](2-Imagens/wireframe3.jpg)
