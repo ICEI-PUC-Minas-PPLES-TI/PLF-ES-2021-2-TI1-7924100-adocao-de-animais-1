@@ -1,3 +1,6 @@
+# Interface:
+<br> - O design da interface foi elaborado para subdividir os principais requisitos funcionais do programa (ferramenta de busca, doação e adoção de animais, chat e cadastro de usuários). Além disso, focamos em respeitar as delimitações dos requisitos não funcionais, deixando a interface fluida e intuitiva ao usuário.<br> - Buscamos adequar a nossa plataforma de acordo com as necessidades encontradas ao analisarmos as histórias de usuário.
+   
 # USER FLOW
 ![userflow](2-Imagens/userflow.PNG)
 # Wireframes
