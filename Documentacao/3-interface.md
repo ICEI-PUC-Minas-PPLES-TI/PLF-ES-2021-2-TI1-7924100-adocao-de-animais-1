@@ -1,5 +1,5 @@
 # USER FLOW
-![userflow](2-Imagens/userflow.jpg)
+![userflow](2-Imagens/userflow.PNG)
 # Wireframes
 ![wireframe1](2-Imagens/wireframe1.jpg)
 ![wireframe2](2-Imagens/wireframe2.jpg)
