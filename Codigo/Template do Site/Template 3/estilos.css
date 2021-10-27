@@ -1,0 +1,247 @@
+body{
+    background-color:rgb(236, 236, 236);
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+
+.navbar{
+    background:rgba(30, 206, 103, 0.877);
+    min-height:60px;
+    padding: 20px;
+}
+.nav-link{
+    font-family: 'Sansita';font-size: 22px;
+}
+.logo{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+}
+
+.logo2{ 
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.btn-criar_conta{
+    background:rgba(228, 66, 66, 0.904);
+    font-family: 'Sansita';font-size: 18px;
+    color: white;
+    width: 140px;
+    margin-top: 10px;
+    margin-right:15px;
+    
+}
+.links{
+    color:black;
+    margin-top: 6px;
+    font-family: 'Sansita';
+    font-size: 30px;
+}
+
+.btn-entrar{
+    background:rgb(255, 255, 255);
+    font-family: 'Sansita';font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 140px;
+    margin-top: 10px;
+}
+
+.copyright{
+    font-family: 'Sansita';font-size: 20px;
+    margin-top: 28px;
+}
+
+.footerr{
+    margin-top:100px;
+    background-color:rgba(196, 73, 73, 0.753);
+    padding: 30px;
+    bottom: 0px;
+    display: table-row;
+    height: 0;
+}
+
+.filtro{
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.but{
+    margin-top: -3px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width: 80%;
+    background:rgba(228, 66, 66, 0.904);
+    font-family: 'Sansita';font-size: 18px;
+    color: white;
+}
+
+.recentes{
+    margin-top: 30px;
+    font-family: 'Sansita';font-size: 37px;
+}
+
+.recentes2{
+    margin-top: 30px;
+    font-family: 'Sansita';font-size: 28px;
+}
+
+.recentes3{
+    margin-top: 15px;
+    font-family: 'Sansita';font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    margin-top: 40px;
+    margin-left: 0 auto; /* Added */
+    margin-right:0 auto;
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.cards2{
+    margin-bottom:20px;
+}
+
+.pagination {
+    display: inline-block;
+    margin-bottom:50px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+  }
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width:1400px){
+
+    .cards{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .cards{
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .btn-criar_conta{
+        background:rgba(228, 66, 66, 0.904);
+        font-family: 'Sansita';font-size: 18px;
+        color: white;
+        width: 140px;
+        margin-top: 10px;
+    }
+    .btn-entrar{
+        background:rgb(255, 255, 255);
+        font-family: 'Sansita';font-size: 18px;
+        color: rgb(0, 0, 0);
+        width: 140px;
+        margin-top: 10px;
+    }
+    
+
+    .logo{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        width: 250px;
+        margin-top: 20px;
+    }
+    .links{
+        color:black;
+        margin-top: 6px;
+        font-family: 'Sansita';
+        font-size: 26px;
+        text-align:center;
+    }
+    .copyright{
+        text-align: center;
+        margin-right:0 auto;
+        margin-left: 0 auto;
+    }
+
+    .cards{
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+
+    .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    }
+
+    .recentes{
+        margin-top: 30px;
+        font-family: 'Sansita';font-size: 28px;
+        text-align: center;
+    }
+    .recentes2{
+        margin-top: 30px;
+        font-family: 'Sansita';font-size: 28px;
+        text-align: center;
+    }
+    .recentes3{
+        margin-top: 30px;
+        font-family: 'Sansita';font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .but{
+        margin-top: 8px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        width: 80%;
+        background:rgba(228, 66, 66, 0.904);
+        font-family: 'Sansita';font-size: 18px;
+        color: white;
+    }
+}
+ 
+@media screen and (max-width:530px){
+
+    .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    }
+}

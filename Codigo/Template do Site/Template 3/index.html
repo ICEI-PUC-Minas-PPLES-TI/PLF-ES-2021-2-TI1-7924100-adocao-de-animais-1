@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Sansita' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="img/KODA.PNG" class="logo"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Busca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sobre nós</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button type="button" class="btn btn-criar_conta rounded-pill">Criar conta!</button>
+                    <button type="button" class="btn btn-entrar rounded-pill border-danger">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="col-12">
+            <h1 class="recentes">
+                <b>Buscar Animais:</b>
+            </h1>
+        </div>
+
+        <section class="row ">
+            <div class="col-12 rounded filtro">
+                <div class="row">
+                    <div class="col-sm-4 col-12 mb-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Todas Espécies</option>
+                                <option value="1">Cachorro</option>
+                                <option value="2">Gato</option>
+                                <option value="3">Ave</option>
+                                <option value="4">Répteis</option>
+                                <option value="5">Roedores</option>
+                                <option value="6">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12 mb-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Todos os sexos</option>
+                                <option value="1">Macho</option>
+                                <option value="2">Fêmea</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-12 mb-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Todos os portes</option>
+                                <option value="1">Pequeno</option>
+                                <option value="2">Médio</option>
+                                <option value="3">Grande</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-12 mb-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Todos os estados</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-12 mb-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                                <option selected>Todas as Cidades</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-12 mb-3">
+                        <div class="col-auto">
+                            <input class="form-control" type="text" placeholder="Nome do bicho" aria-label="default input example">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-12 mb-3">
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-criar_conta1 but rounded">Buscar</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <div class="col-12">
+            <h1 class="recentes2">
+                <b>Adicionados Recentemente:</b>
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet, itaque
+                            voluptatum ipsa consequuntur quod.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <h1 class="recentes">
+                <a class="nav-link links" href="#">Ver mais...</a>
+            </h1>
+        </div>
+
+        <hr style="height:2px;margin-top:50px;border-width:0;color:gray;background-color:gray">
+
+        <div class="col-12">
+            <h1 class="recentes2">
+                <b>Resultados de Busca:</b>
+            </h1>
+        </div>
+
+        <div class="row cards2">
+            <div class="col-lg-3 col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet, itaque
+                            voluptatum ipsa consequuntur quod.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis iste
+                            nobis ad! Delectus, consequatur labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <h1 class="recentes3">
+                <a class="nav-link links" href="#">Ver mais...</a>
+            </h1>
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+
+        
+
+
+    </main>
+
+    <footer class="container-fluid footerr">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <img src="img/KODA.PNG" class="logo2">
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <h1 class="copyright">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, magnam.
+                </h1>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
