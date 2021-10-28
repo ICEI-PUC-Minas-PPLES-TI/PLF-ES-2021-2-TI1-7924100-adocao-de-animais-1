@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 15px;
+}
+.botao1{
+    text-align: center;
+    margin: 10px;
+
+
+}
+#form-animal2{
+    display: none;
+}
