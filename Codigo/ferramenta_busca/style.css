@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*cabeçalho*/
+header{
+    background-color:black;
+    padding:10px;
+}
+header h1{
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+/*apresentação*/
+.info{
+    display:inline-block;
+    width: 49.4%;
+    margin-top:5px;
+}
+/*foto minha e data*/
+#eu-data{
+    height:170px;
+    margin-left:5px;
+    background-color: rgb(221, 214, 224);
+    border-radius:30px;
+}
+#eu-data img{
+    display:block;
+    margin: 0 auto;
+    padding:10px;
+    border-radius: 50%;
+    width:15%
+}
+#eu-data p1{
+    font-family:cambria;
+    display:block;
+    text-align: center;
+}
+/*texto explicativo*/
+#sobre{
+    height:170px;
+    margin:5px;
+    float:right;
+    background-color: rgb(221, 214, 224);
+    border-radius: 30px;
+}
+#sobre p2{
+    font-family:cambria;
+    font-size:20px;
+    display:block;
+    text-align: center;
+    padding-top:50px;;
+}
+/*FERRAMENTA*/
+#busca{
+    background-color:darkturquoise;
+    margin:5px;
+    border-radius: 30px;
+    padding:10px;
+}
+#busca h2{
+    text-align:center;
+    font-family:monospace;
+}
+#busca ul{
+    text-align:center;
+    padding-top:10px;
+}
+#busca li{
+    display:inline;
+    color:white;
+    background-color: black;
+    padding:5px;
+    border-radius: 10px;
+    font-family: cambria;
+}
+/*footer*/
+footer{
+    background-color:black;
+    border-radius: 5px;
+    margin:5px;
+}
+footer p{
+    color:white;
+    padding:3px;
+    text-align:center;
+    font-family:sans-serif;
+}
