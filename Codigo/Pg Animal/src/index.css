@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{ 
+    grid-area: header;
+    background-color: #48C691;
+    padding-left: 8px;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+main{
+    padding-top: 10px;
+    grid-area: conteudo;
+}
+footer{
+    grid-area: footer;  
+    background-color: #48C691;
+    padding-right: 5px;
+    text-align: right;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 50px 1fr 25px;
+    grid-template-areas: 
+        'header'
+        'conteudo'
+        'footer';
+}
+.perguntas:hover{
+    background-color: #48c69152;
+}
+
+.nome{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.dog{
+    border-radius: 5%; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.per{
+    color: dimgray;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.resp{
+    color: red;
+    font-weight: 630;
+}
+.botao{
+    color: #000;
+    font-weight: 490;
+    text-decoration: underline;
+}
+.topo{
+    border-top: solid 2px gray;
+}
+.resps{
+    color: red;
+    padding-left: 35px;
+    text-align: justify;
+}
+.some2,.some4{
+    display: none;
+}
+@media (max-width: 991px){
+    .some1{ display: none;}
+    .some2{ 
+        display: block;
+        margin: 0px;
+    }
+}
+@media (max-width: 991px) and (min-width:768px){
+    .dog{
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .some3{ display: none;}
+    .some2{ display: none;}
+    .some4{ display: block;}
+    .center{ text-align: center; }
+
+}
