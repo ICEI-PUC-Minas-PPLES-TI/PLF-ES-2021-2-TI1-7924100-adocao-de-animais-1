@@ -10,7 +10,7 @@ function leDados() {
     else {
         objDados = {
             animais: [
-                { id: "1", nome: "Luna", Idade: "4 anos", Sexo: "Femea", Especie: "Cachorro", Cidade: "BH", Raca: "Collie", Porte: "Grande" }
+                { id: "1", nome: "Luna", Idade: "4 anos", Sexo: "Femea", Especie: "Cachorro", Cidade: "BH", Raca: "Collie", Porte: "Grande", Desc: "cachorro"}
             ]
         }
     }
@@ -33,6 +33,7 @@ function incluirAnimal() {
     let strCidade = document.getElementById('inputCidade').value;
     let strRaca = document.getElementById('inputRaca').value;
     let strPorte = document.getElementById('inputPorte').value;
+    let strDesc = document.getElementById('inputDesc').value;
     let novoAnimal = {
         nome: strNome,
         Idade: strIdade,
@@ -40,7 +41,8 @@ function incluirAnimal() {
         Especie: strEspecie,
         Cidade: strCidade,
         Raca: strRaca,
-        Porte: strPorte
+        Porte: strPorte,
+        Desc: strDesc
 
     };
     objDados.animais.push(novoAnimal);
@@ -64,6 +66,7 @@ function imprimeDados() {
             <td>${objDados.animais[i].Cidade}</td>
             <td>${objDados.animais[i].Raca} </td>
             <td>${objDados.animais[i].Porte} </td>
+            <td>${objDados.animais[i].Desc} </td>
             <td><button class="btn btn-secondary" onclick="OpenInput(this)">Alterar</button></td>
 
             <td><button id="btnDelete"   onclick="deleteAnimal(this)" class="btn  btn-danger">Excluir</button></td> 
