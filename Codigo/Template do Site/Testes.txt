@@ -1,0 +1,17 @@
+Cenário                 Pré-condições       Ações                                              Resultados Esperados       
+ 
+Abrir o Template 1 OK   Site responsivo     1-Abrir o projeto                                  Pagina responsiva e fiel aos protótipos.
+                                            2-Checar live server do HTML e CSS
+					    3-Diminuir a página para testar responsividade
+
+
+
+Abrir o Template 2 OK   Site responsivo     1-Abrir o projeto                                  Pagina responsiva e fiel aos protótipos.
+                                            2-Checar live server do HTML e CSS
+					    3-Diminuir a página para testar responsividade
+
+
+
+Abrir o Template 3 OK   Site responsivo     1-Abrir o projeto                                  Pagina responsiva e fiel aos protótipos.
+                                            2-Checar live server do HTML e CSS
+					    3-Diminuir a página para testar responsividade
