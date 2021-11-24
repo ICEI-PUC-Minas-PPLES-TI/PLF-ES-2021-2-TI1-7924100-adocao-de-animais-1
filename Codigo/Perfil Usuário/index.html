@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Sansita' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" id="dadosw">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="img/KODA.PNG" class="logo"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Busca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sobre nós</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="img/Esqueceram-de-Mim-740x555.jpg" class="smpic">
+        </div>
+    </nav>
+
+    <div class="container perfil" id="dadosx">
+        <div class="row">
+            <div class="col-6">
+                <img src="img/Esqueceram-de-Mim-740x555.jpg" class="profilepic rounded">
+            </div>
+            <div class="col-6">
+                <ul>
+                    <p class="nomecompleto">Olivier Lopes Rubinger</p>
+                </ul>
+                <ul>
+                    <h1 class="estadocidade">Minas Gerais, Belo Horizonte</h1>
+                </ul>
+                <ul>
+                    <button type="button" class="btn btn-contatos rounded-pill" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Contatos</button>
+                </ul>
+                <ul><button onclick="getData()" type="button" class="btn btn-doar rounded">Desejo doar um
+                        animal</button></ul>
+                <ul></ul>
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" id="dadosy">
+                <div class="modal-header">
+                    <h5 class="modal-title contatostext" id="staticBackdropLabel"><b>Contatos</b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>Email: olivierrubinger@gmail.com</ul>
+                    <ul>Cel: +55 (31) 984121221</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12">
+            <h1 class="Doados">
+                <b>Animais Doados: </b>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container-fluid cardsbackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet,
+                                itaque
+                                voluptatum ipsa consequuntur quod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-12">
+            <h1 class="Doados">
+                <b>Animais Adotados: </b>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container-fluid cardsbackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet,
+                                itaque
+                                voluptatum ipsa consequuntur quod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-12">
+            <h1 class="Doados">
+                <b>Favoritados: </b>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container-fluid cardsbackground">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic amet,
+                                itaque
+                                voluptatum ipsa consequuntur quod.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-12 cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/golden_retriever-p.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
+                                iste
+                                nobis ad! Delectus, consequatur labore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="emptyspace">
+
+    </div>
+
+
+    <footer class="container-fluid footerr">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img src="img/KODA.PNG" class="logo2">
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <h1 class="copyright">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, magnam.
+                </h1>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+
+        /* API RandomUser */
+
+        /*
+        var req = new XMLHttpRequest();
+        var url = 'https://randomuser.me/api/';
+
+
+
+        function processData() {
+            var dadosz = JSON.parse(req.responseText = '');
+            var dados = `<div class="container perfil">
+        <div class="row">
+            <div class="col-6">
+                <img src="${}" class="profilepic rounded">
+            </div>
+            <div class="col-6">
+                <ul>
+                    <p class="nomecompleto">${}} ${}</p>
+                </ul>
+                <ul>
+                    <h1 class="estadocidade">${}, ${}</h1>
+                </ul>
+                <ul>
+                      <button type="button" class="btn btn-contatos rounded-pill" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Contatos</button>
+                </ul>
+                <ul><button type="button" class="btn btn-doar rounded" >Desejo doar um animal</button></ul>
+            </div>
+        </div>
+    </div>`
+
+            var dados2 = `
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title contatostext" id="staticBackdropLabel"><b>Contatos</b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>Email:  ${}</ul>
+          <ul>Cel:  ${}</ul>
+        </div>
+      </div>`
+            document.getElementById('dadosx').innerHTML = dados;
+            document.getElementById('dadosy').innerHTML = dados2;
+        }
+
+        function getData() {
+            req.onload = processData();
+            req.open('GET', url, true);
+            req.send();
+        }
+        */
+
+        let objDados = {
+            nome: "Eric",
+            nomecompleto: "Eric Jardim",
+            email: "ericjardim007gmail.com",
+            senha: "teste1234",
+            telefone: "+55 (31) 99810-0509",
+            cidade: "Belo Horizonte",
+            estado: "Minas Gerais",
+            imagem: "img/Esqueceram-de-Mim-740x555.jpg"
+        }
+
+        /*let objDados = {
+            nome: "João",
+            nomecompleto: "João Henrique",
+            email: "jhenrique@gmail.com",
+            senha: "teste1234",
+            telefone: "+55 (71) 98412-1221",
+            cidade: "Salvador",
+            estado: "Bahia",
+            imagem: "img/main-qimg-f521020f4e9761f812d1dd8e1de32ebb-c.jpeg"
+        }*/
+
+        function salvaDados(objDados) {
+            localStorage.setItem('db_cadastros', JSON.stringify(objDados))
+        }
+
+        salvaDados(objDados);
+
+
+        var dados = `<div class="container perfil">
+        <div class="row">
+            <div class="col-6">
+                <img src="${objDados.imagem}" class="profilepic rounded">
+            </div>
+            <div class="col-6">
+                <ul>
+                    <p class="nomecompleto">${objDados.nomecompleto}</p>
+                </ul>
+                <ul>
+                    <h1 class="estadocidade">${objDados.cidade}, ${objDados.estado}</h1>
+                </ul>
+                <ul>
+                      <button type="button" class="btn btn-contatos rounded-pill" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Contatos</button>
+                </ul>
+                <ul><button type="button" class="btn btn-doar rounded" >Desejo doar um animal</button></ul>
+            </div>
+        </div>
+    </div>`
+
+        var dados2 = `
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title contatostext" id="staticBackdropLabel"><b>Contatos</b></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>Email:  ${objDados.email}</ul>
+          <ul>Cel:  ${objDados.telefone}</ul>
+        </div>
+      </div>`
+
+      var dados3 = `<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="img/KODA.PNG" class="logo"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Busca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sobre nós</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="${objDados.imagem}" class="smpic">`
+
+
+        document.getElementById('dadosx').innerHTML = dados;
+        document.getElementById('dadosy').innerHTML = dados2;
+        document.getElementById('dadosw').innerHTML = dados3;
+
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
