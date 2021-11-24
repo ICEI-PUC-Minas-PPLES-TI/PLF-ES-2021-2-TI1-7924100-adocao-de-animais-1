@@ -1,0 +1,11 @@
+Cenário                           Pré-condições       Ações                                               Resultados Esperados       
+ 
+Executar index.html (JSON 1) OK   Site responsivo     1-Abrir o projeto                                   nome, cidade, estado, email e telefone
+                                  JSON Definido       2-Analisar nome, cidade, estado, email e telefone   modificados e funcionando de acordo com
+					                                            3-Checar se tudo condiz com JSON no código HTML     script do código
+
+Executar index.html (JSON 2) OK   Site responsivo     1-Abrir o projeto                                   nome, cidade, estado, email e telefone
+                                  JSON Definido       2-Analisar nome, cidade, estado, email e telefone   modificados e funcionando de acordo com
+					                                            3-Checar se tudo condiz com JSON no código HTML     script do código
+
+
