@@ -1,0 +1,184 @@
+/* Settings padrão */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(rgb(216, 216, 216),rgb(24, 24, 24));
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Todo o header */
+header{
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:80px;
+    border-bottom: 4px solid;
+    border-color:blueviolet;
+}
+/* div - imagem de perfil e título */
+header>div{
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+header img{
+    height:60px;
+    border-radius:50%;
+    margin: 0 20px;
+}
+header h1{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+/* nav */
+header p{
+    color:white;
+    padding:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size:12px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* EXPLICAÇÃO */
+section>h1{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:30px;
+}
+section>p{
+    width:calc(30% - 100px);
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+    margin: 40px auto;
+    padding:0 50px 20px 50px;
+    border-bottom: 1px solid;
+    border-color:blueviolet;
+}
+/* pequena responsividade */
+@media screen and (min-width:577px) and (max-width: 1152px){
+    section>p{
+        width:calc(60% - 100px);
+        text-align: justify;
+        font-family:'Courier New', Courier, monospace;
+        margin: 20px auto;
+    }
+}
+@media screen and (min-width:465px) and (max-width: 576px){
+    section>p{
+        width:calc(90% - 100px);
+        text-align: justify;
+        font-family:'Courier New', Courier, monospace;
+        margin: 20px auto;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 464px){
+    header{
+        background-color:black;
+        display:block;
+        border-bottom: 4px solid;
+        border-color:blueviolet;
+    }
+    header>div{
+        background-color:black;
+        display:flex;
+        align-items:center;
+        justify-content: left;
+    }
+    header img{
+        height:60px;
+        border-radius:50%;
+        margin: 0 20px;
+        margin-top:10px;
+    }
+    header p{
+        display:none;
+    }
+    section>p{
+        width:calc(100% - 100px);
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        margin: 20px auto;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Caixa roxa */
+.container{
+    background-image:linear-gradient(rgb(121, 54, 184),rgb(22, 0, 22));
+    width:80%;
+    margin: 0 auto 40px;
+    box-sizing:border-box;
+    border-radius:20px;
+    border:3px solid;
+    border-color:rgb(30, 0, 58);
+}
+/* todos os botões */
+.botoes{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+/* cada botão */
+.botoes>button{
+    margin:10px 20px;
+    padding:5px;
+    border: 2px solid;
+    border-color:rgb(30, 0, 58);
+    color:purple;
+    font-weight:bold;
+    background-color:rgb(214, 169, 255);
+    border-radius:10px;
+}
+/* Títulos */
+.textos>h1{
+    color:rgb(180, 128, 180);
+    text-align:center;
+    margin-top:25px;
+    font-family:'Courier New', Courier, monospace;
+}
+/* Parágrafos */
+.textos>p{
+    text-align:justify;
+    color:rgb(216, 174, 255);
+    font-weight:bold;
+    margin: 20px 80px 40px 80px;
+}
+@media screen and (min-width:0px) and (max-width: 464px){
+    .botoes>button{
+        margin:10px 8px;
+        padding:3px;
+    }
+    .textos>p{
+        text-align:center;
+        margin: 20px 30px 40px 30px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Footer */
+footer{
+    background-color:black;
+    height:30px;
+    display:flex;
+    align-items:center;
+}
+footer>p{
+    color:rgb(151, 151, 151);
+    margin: 0 auto;
+}
+@media screen and (min-width:0px) and (max-width: 410px){
+    footer>p{
+        font-size:10px;
+    }
+}
+
+
