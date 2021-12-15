@@ -33,5 +33,6 @@ No Design Sprint foram levantadas:
 > - Miro, Design do Projeto, Design Thinking
 > - Figma, Prototipação
 > - Meets, Comunicação e reunião
+> - Replit, Hospedagem e Coding
 
 
