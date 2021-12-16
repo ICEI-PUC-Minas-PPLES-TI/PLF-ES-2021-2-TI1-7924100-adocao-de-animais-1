@@ -1,4 +1,4 @@
 #Link para o site KODA:
-[KODA](https://replit.com/@berohlfs/Koda-Sprint-04#index.html)
+[KODA](https://koda-sprint-04--berohlfs.repl.co/)
 
-https://replit.com/@berohlfs/Koda-Sprint-04#index.html
+https://koda-sprint-04--berohlfs.repl.co/
