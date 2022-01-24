@@ -1,0 +1,29 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Adoção de Animais - KODA
+authors:
+  - family-names: Lopes Rubinger
+    given-names: Olivier 
+  - family-names: Cruz Rohlfs 
+    given-names: Bernardo  
+  - family-names: Martini Brina
+    given-names: Guilherme 
+  - family-names: Roberto
+    given-names: Philippe 
+  - family-names: Guimarães Jardim
+    given-names: Eric 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Dias Ferreira da Rocha
+    given-names: Roberto Felipe 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel 
+keywords:
+  - Adoção
+  - Animais
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2021-2-TI1-7924100-adocao-de-animais-1
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2021-12-22
